@@ -1,0 +1,20 @@
+.odd,
+.diff {
+    background-color: rgb(255, 192, 203);
+    font-family: "Verdana", DeJaVu Sans, sans-serif;
+}
+
+.diff {
+    font-size: 24px;
+}
+
+#one-id{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#another-id{
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
