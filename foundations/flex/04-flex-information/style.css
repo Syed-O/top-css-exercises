@@ -10,6 +10,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +25,35 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  display: flex;
+  flex-grow: 1;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: wrap;
+}
+/*
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 1 0;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 52px;
+}
+  */
